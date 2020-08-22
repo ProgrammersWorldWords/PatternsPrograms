@@ -4,11 +4,12 @@ public class Pattern1{
 	
 	public static void main(String arg[]){
 		
-		System.out.println("*********************** Pattern1 ****************************");
+		System.out.println("*********************** Patterns ****************************");
 		
 		int rows,columns,num ;
 		
-		System.out.print("Enter a number : ");
+		System.out.print("Enter a Option : ");
+
 		
 		Scanner input = new Scanner(System.in);
 

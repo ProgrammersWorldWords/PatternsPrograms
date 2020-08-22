@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class Pattern1{
+public class Pattern11{
 	
 	public static void main(String arg[]){
 		
-		System.out.println("*********************** Pattern1 ****************************");
+		System.out.println("*********************** Pattern11 ****************************");
 		
 		int rows,columns,num ;
 		
@@ -14,13 +14,13 @@ public class Pattern1{
 
 		num = input.nextInt();
 
-		for(columns=0;columns<num;columns++){
+		for(columns=0;columns<=num;columns++){
 			
-			for(rows=0;rows<num;rows++){
+			for(rows=0;rows<=columns;rows++){
 				
-			    System.out.print(pat);
+			    System.out.print(columns);
 			}
 	            System.out.println();
-		}
+		} 
 	}
 }

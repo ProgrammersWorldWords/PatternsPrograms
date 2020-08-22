@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Pattern1{
+public class Pattern2{
 	
 	public static void main(String arg[]){
 		
@@ -18,7 +18,7 @@ public class Pattern1{
 			
 			for(rows=0;rows<num;rows++){
 				
-			    System.out.print(pat);
+			    System.out.print(columns);
 			}
 	            System.out.println();
 		}
